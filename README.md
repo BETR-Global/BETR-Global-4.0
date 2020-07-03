@@ -1,0 +1,1 @@
+# BETR-Global-4.0
