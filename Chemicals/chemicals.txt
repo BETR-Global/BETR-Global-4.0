@@ -1,0 +1,42 @@
+# Database of Chemicals                      
+# commentline sstart with '''''''''''''''''''''''''''''''#'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''                     
+# Comments must form continuous block at the beginning of the file              
+# The last comment line is not really a comment. It containes the names            
+# of the variables used in the code. The data has to start in the following line.         
+#                         
+#                         
+# Parameters:                        
+#                         
+# ID : unique database identifier                    
+# T0 : standard temperature (K)                    
+# molmass : molecular mass (g/mol)                    
+# logKaw : partitioning coefficient air-water                    
+# logKow : partitioning coefficient octanol-water                    
+# logKoa : partitioning coefficient octanol-air                    
+# halflife_air (h)                       
+# halflife_veg (h)                       
+# halflife_freshwater (h)                       
+# halflife_ocean (h)                       
+# halflife_soil (h)                       
+# halflife_sediment (h)                       
+# DUoa : internal energy of phase change octanol-air (J/mol)                
+# DUow : internal energy of phase change octanol-water (J/mol)                
+# EA_air : activation energy in air (J/mol)                  
+# EA_veg : activation energy in vegetation (J/mol)                  
+# EA_freshwater : activation energy in freashwater (J/mol)                  
+# EA_ocean : activation energy in ocean water (J/mol)                 
+# EA_soil : activation energy in soil (J/mol)                  
+# EA_sediment : activation energy in sediment (J/mol)                  
+# notes : description                      
+#                         
+#ID Name T0 molmass logKaw logKow logKoa halflife_air halflife_finepar halflife_coarsepar halflife_veg halflife_freshwater halflife_ocean halflife_soil halflife_sediment DUoa DUow EA_air EA_finepar EA_coarsepar EA_veg EA_freshwater EA_ocean EA_soil EA_sediment notes
+1 BDE-209 298.15 959.2 -4.81 9.97 16.8 7632 7632 7632 38000 38000 38000 76000 228000 -145000 -80000 10000 110000 110000 20000 20000 20000 20000 20000 
+2 D5 298.15 370.77 3.13 8.03 5.07 102 102 102 1704 1704 1704 53520 53520 -53162.72656 -20000 3341 110000 110000 20000 20000 20000 20000 20000 
+3 TCPP 298.2 327 -5.4 2.7 8.1 60 60 60 7200 7200 7200 14400 65000 -80306 -20000 10000 110000 110000 30000 30000 30000 30000 30000 
+4 BDE-15 298.15 328 -2.29 5.44 8.09 101 101 123 1800 1800 1800 2500 7500 -70000 -21000 10000 110000 110000 20000 20000 20000 20000 20000 
+5 BDE-28 298.15 406.9 -2.7 5.92 9.16 183 183 183 2500 2500 2500 5000 15000 -73000 -16000 10000 110000 110000 20000 20000 20000 20000 20000 
+6 BDE-47 298.15 485.8 -3.12 6.53 10.4 265 265 265 4600 4600 4600 9240 27720 -97000 -20000 10000 110000 110000 20000 20000 20000 20000 20000 
+7 BDE-99 298.15 564.7 -3.37 7 11.3 456 456 456 8500 8500 8500 17000 51000 -91000 -12000 10000 110000 110000 20000 20000 20000 20000 20000 
+8 BDE-100 298.15 564.7 -3.78 6.68 11.3 456 456 456 8500 8500 8500 17000 51000 -105000 -43000 10000 110000 110000 20000 20000 20000 20000 20000 
+9 BDE-153 298.15 643.6 -3.68 7.36 12.1 1104 1104 1104 15700 15700 15700 31300 93900 -98000 -21000 10000 110000 110000 20000 20000 20000 20000 20000 
+10 BDE-183 298.15 722.5 -4.28 7.26 12.6 1536 1536 1536 21000 21000 21000 42200 126600 -90000 -20000 10000 110000 110000 20000 20000 20000 20000 20000 
