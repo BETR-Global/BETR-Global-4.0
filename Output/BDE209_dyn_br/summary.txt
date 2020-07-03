@@ -1,0 +1,10 @@
+"BETR-Global 3.0"
+runID BDE209_dyn_br
+seasfile seasonal_parameters_20C3M.a2.comp.ivm.moh_add2mix_esrl_br.txt
+chemdata chemicals.txt
+chemnr 1
+compfile compartments_4T.txt
+constparfile const_parameters_20C3M.comp.ivm_corrdiffstrato_7scenarios_br.txt
+flowdirectory OcMix.At100_20C3M.a2.comp.ivm_br
+procfile processes_separate_particles_from_gas.txt
+contfile control_default.txt
